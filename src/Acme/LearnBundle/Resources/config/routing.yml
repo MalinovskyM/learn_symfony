@@ -1,0 +1,7 @@
+show:
+    path:     /show
+    defaults: { _controller: AcmeLearnBundle:Battery:show }
+
+add:
+    path:     /add
+    defaults: { _controller: AcmeLearnBundle:Battery:add }
