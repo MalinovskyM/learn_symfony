@@ -1,0 +1,20 @@
+Acme\LearnBundle\Entity\Battery:
+    type: entity
+    table: null
+    repositoryClass: Acme\LearnBundle\Entity\BatteryRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        type:
+            type: string
+            length: '100'
+        count:
+            type: integer
+        name:
+            type: string
+            length: '100'
+    lifecycleCallbacks: {  }

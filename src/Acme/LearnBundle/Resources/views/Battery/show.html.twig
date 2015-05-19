@@ -1,0 +1,18 @@
+<table border="1">
+    <thead>
+    <tr>
+        <th>Type</th>
+        <th>Count</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for item in data %}
+        <tr>
+            <td>{{ item.type }}</td>
+            <td >{{ item.num }}</td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+<a href="{{ path('del') }}">Delete all</a>
+

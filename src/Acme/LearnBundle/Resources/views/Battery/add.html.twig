@@ -1,0 +1,11 @@
+<form action="{{ path('add') }}" method="post" {{ form_enctype(form) }}>
+    {{ form_errors(form) }}
+
+    {{ form_row(form.type) }}
+    {{ form_row(form.count) }}
+    {{ form_row(form.name) }}
+
+    {{ form_rest(form) }}
+
+    <input type="submit" />
+</form>

@@ -5,3 +5,7 @@ show:
 add:
     path:     /add
     defaults: { _controller: AcmeLearnBundle:Battery:add }
+
+del:
+    path:     /del
+    defaults: { _controller: AcmeLearnBundle:Battery:del }
